@@ -81,6 +81,8 @@
 &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &trans      &trans  &kp LS(N)  &kp LS(M)  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION
 &trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         NUM {
